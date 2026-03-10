@@ -38,9 +38,9 @@
     {
       "id": "-mar06hNw56dJf2nXAGdt",
       "type": "text",
-      "x": 539.6698129968347,
+      "x": 540.2412328489553,
       "y": -1260.3143048967634,
-      "width": 209.5752410888672,
+      "width": 211.2593231201172,
       "height": 164.3999938964844,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -57,20 +57,20 @@
       "index": "a1",
       "roundness": null,
       "seed": 65205809,
-      "version": 393,
-      "versionNonce": 436636401,
+      "version": 403,
+      "versionNonce": 452245009,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1773126920886,
+      "updated": 1773128251502,
       "link": null,
       "locked": false,
-      "text": "customer\ncusID          integer\nName    varchar(50)\nPhone   varchar(10)\nline     varchar(20)\nAddress   varchar(100)",
+      "text": "customer\ncusID          integer\ncusName    varchar(50)\nphone   varchar(10)\nline     varchar(20)\naddress   varchar(100)",
       "fontSize": 20.29629554277585,
       "fontFamily": 6,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "customer\ncusID          integer\nName    varchar(50)\nPhone   varchar(10)\nline     varchar(20)\nAddress   varchar(100)",
+      "originalText": "customer\ncusID          integer\ncusName    varchar(50)\nphone   varchar(10)\nline     varchar(20)\naddress   varchar(100)",
       "autoResize": true,
       "lineHeight": 1.35
     },
@@ -264,7 +264,7 @@
       "x": 1407.2412895244577,
       "y": -813.1428124564037,
       "width": 235.30294799804688,
-      "height": 109.5999959309896,
+      "height": 136.999994913737,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -280,8 +280,8 @@
       "index": "a7",
       "roundness": null,
       "seed": 1881590175,
-      "version": 987,
-      "versionNonce": 895128369,
+      "version": 1012,
+      "versionNonce": 2002218833,
       "isDeleted": false,
       "boundElements": [
         {
@@ -289,16 +289,16 @@
           "type": "arrow"
         }
       ],
-      "updated": 1773127200825,
+      "updated": 1773129598623,
       "link": null,
       "locked": false,
-      "text": "product\nproductId       varchar(20)\nproductName varchar(50)\nonHand          integer",
+      "text": "product\nproductId       varchar(20)\nproductName varchar(50)\nunitPrice        integer\nonHand          integer",
       "fontSize": 20.29629554277585,
       "fontFamily": 6,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "product\nproductId       varchar(20)\nproductName varchar(50)\nonHand          integer",
+      "originalText": "product\nproductId       varchar(20)\nproductName varchar(50)\nunitPrice        integer\nonHand          integer",
       "autoResize": true,
       "lineHeight": 1.35
     },
@@ -405,10 +405,10 @@
     {
       "id": "O_WZUkb5smKkQdGjlodFT",
       "type": "arrow",
-      "x": 1399.1715000697545,
-      "y": -771.1142774309436,
-      "width": 167.4285888671875,
-      "height": 55.999973842075974,
+      "x": 1399.1715000697543,
+      "y": -758.0748116928339,
+      "width": 159.3945615412074,
+      "height": 62.11259928702236,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -424,11 +424,11 @@
         "type": 2
       },
       "seed": 431049151,
-      "version": 40,
-      "versionNonce": 132318481,
+      "version": 65,
+      "versionNonce": 170876209,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1773127200826,
+      "updated": 1773129598625,
       "link": null,
       "locked": false,
       "points": [
@@ -437,8 +437,8 @@
           0
         ],
         [
-          -167.4285888671875,
-          -55.999973842075974
+          -159.3945615412074,
+          -62.11259928702236
         ]
       ],
       "lastCommittedPoint": null,
