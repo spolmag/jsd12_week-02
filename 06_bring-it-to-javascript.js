@@ -3,8 +3,8 @@ let customer = [
     {cusId: 2, cusName: "ป้าศรี ซ.3", phone: "0983932315", line: "sri_pretty", email: "cus2@gmail.com", address: "5 ม.5 ซ.3"},
 ];
 let order = [
-    {orderId: 1, cusId: 1, deliver: true, deliverAddress: "1 ซ.13"},
-    {orderId: 2, cusId: 2, deliver: false, deliverAddress: ""}
+    {orderId: 1, cusId: 1, deliver: true, deliverAddress: "1 ซ.13", staffId: 1},
+    {orderId: 2, cusId: 2, deliver: false, deliverAddress: "", staffId: 1}
 ];
 let order_details = [
     {orderId:1, cusId:1, productId:"1234567891234", qty:1, totalAmt:20, discAmt: 0, netAmt:20},
@@ -24,6 +24,10 @@ let category_2 = [
     {categoryId: 1, categoryName: "น้ำปลา, ซิอิ๊ว, เครื่องปรุงบรรจุขวด"},
     {categoryId: 2, categoryName: "สบู่ก้อน"}
 ];
+
+let staff = [
+    {staffId: 1, staffName: "สุทธิพงษ์ ผลมาก"}
+]
 
 console.log(customer[0]);
 console.log(order[1]);
