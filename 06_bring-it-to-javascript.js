@@ -11,13 +11,18 @@ let order_details = [
     {orderId:2, cusId:13, productId:"1234567891235", qty:1, totalAmt:30, discAmt: 0, netAmt:30}
 ];
 let product = [
-    {productId:"1234567891234", categoryId: 1, productName:"น้ำปลา ตราชั่ง 500มล.", unitPrice: 20, onHand: 5},
-    {productId:"1234567891235", categoryId: 2, productName:"สบู่นกแก้ว มะลิ 50มก.", unitPrice: 30, onHand: 13},
+    {productId:"1234567891234", categoryId_1: 1, categoryId_2: 1, productName:"น้ำปลา ตราชั่ง 500มล.", unitPrice: 20, onHand: 5},
+    {productId:"1234567891235", categoryId_1: 2, categoryId_2: 2, productName:"สบู่นกแก้ว มะลิ 50มก.", unitPrice: 30, onHand: 13},
 ];
 
-let category = [
-    {categoryId: 1, categoryName: "เครื่องปรุง"},
-    {categoryId: 2, categoryName: "ทำความสะอาดร่างกาย"}
+let category_1 = [
+    {categoryId: 1, categoryName: "เครื่องปรุงอาหาร"},
+    {categoryId: 2, categoryName: "ผลิตภัณฑ์ทำความสะอาดร่างกาย"}
+];
+
+let category_2 = [
+    {categoryId: 1, categoryName: "น้ำปลา, ซิอิ๊ว, เครื่องปรุงบรรจุขวด"},
+    {categoryId: 2, categoryName: "สบู่ก้อน"}
 ];
 
 console.log(customer[0]);
