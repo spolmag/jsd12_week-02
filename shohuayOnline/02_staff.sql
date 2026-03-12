@@ -1,7 +1,6 @@
--- Clear existing data to prevent duplication
 TRUNCATE TABLE staff RESTART IDENTITY CASCADE;
 
--- Mock Data for Staff
-INSERT INTO staff (staffId, staffName) VALUES
-(1, 'เจี๊ยบ'),
-(2, 'หมึก');
+INSERT INTO staff (staffId, staffName, role) VALUES
+(1, 'สุทธิพงษ์ ผลมาก', 'Admin'),
+(2, 'ธิราพร กมลพร', 'Sales'),
+(3, 'อนุ เอกชัย', 'Sales');
