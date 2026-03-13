@@ -1,1 +1,1 @@
-SELECT * FROM ordersDetails;
+SELECT * FROM pg_catalog.pg_tables;
